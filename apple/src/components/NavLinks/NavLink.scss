@@ -4,8 +4,8 @@
 }
 
 .subNavBar {
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: darkslategray;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;  
@@ -18,11 +18,13 @@
 
     h3{
         font-size: 14px;
+        color: darkslategray;
     }
     
     h2{
         font-size: 18px;
-        margin: 5px 0px -5px 0px;;
+        margin: 5px 0px -5px 0px;
+        color: darkslategray;
     
     }
 }
