@@ -1,0 +1,35 @@
+.basic{
+    text-decoration: none;
+    color: white;
+}
+
+.subNavBar {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;  
+}
+
+.subNavBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3{
+        font-size: 14px;
+    }
+    
+    h2{
+        font-size: 18px;
+        margin: 5px 0px -5px 0px;;
+    
+    }
+}
+
+.imageHolder {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 100px;
+}
